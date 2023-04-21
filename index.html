@@ -12,36 +12,41 @@
 <title>Andrew Paverd</title>
 
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
 
 <body>
 
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                     
-      </button>
-    </div>
+<nav class="navbar navbar-expand-sm bg-light" style="margin-bottom:30px">
+  <div class="container-md">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="service.html">Service</a></li>
-        <li><a href="students.html">Students</a></li>
-        <li><a href="talks.html">Talks</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="publications.html">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="service.html">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="students.html">Students</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="talks.html">Talks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="teaching.html">Teaching</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -51,7 +56,7 @@
 
   <div class="row" style="margin-bottom:40px">
     <div class="col-sm-5">
-      <img src="AndrewPaverd.png" class="img-responsive" alt="Andrew Paverd">
+      <img src="AndrewPaverd.png" class="img-fluid" alt="Andrew Paverd">
     </div>
     <div class="col-sm-7">
       <h2>Andrew Paverd</h2>
@@ -72,21 +77,21 @@
   </div>
 
 
-<div class="row" style="margin-bottom:30px">
+<div class="row" style="margin-bottom:40px">
 <div class="col-sm-10">
 
 <h3>News</h3>
 
-<div class="panel-group" id="accordion">
+<div class="accordion" id="news">
 
-
-<div class="panel panel-default">
-  <div class="panel-heading clickable" data-toggle="collapse" data-parent="#accordion" href="#news2023">
-  <h4 class="panel-title">2023</h4>
-    </div>
-<div id="news2023" class="panel-collapse collapse in">
-<div class="panel-body">
-
+<div class="accordion-item">
+<h2 class="accordion-header" id="news2023-heading">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#news2023-content" aria-expanded="true" aria-controls="collapse2023">
+2023
+</button>
+</h2>
+<div id="news2023-content" class="accordion-collapse collapse show" aria-labelledby="news2023-heading" data-bs-parent="#news">
+<div class="accordion-body">
 <ul>
 <li><p>04/2023: Our paper <a href="https://arxiv.org/abs/2212.10986">SoK: Let The Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning</a> has been accepted for presentation and publication at the <a href="https://sp2023.ieee-security.org/">IEEE Symposium on Security and Privacy 2023</a>.</p></li>
 <li><p>03/2023: I'm serving as an Associate Chair for the <a href="https://sp2024.ieee-security.org/">IEEE Symposium on Security and Privacy 2024</a>.</p></li>
@@ -96,15 +101,16 @@
 
 </div>
 </div>
-</div> 
+</div>
 
-<div class="panel panel-default">
-  <div class="panel-heading clickable" data-toggle="collapse" data-parent="#accordion" href="#news2022">
-  <h4 class="panel-title">2022</h4>
-    </div>
-<div id="news2022" class="panel-collapse collapse">
-<div class="panel-body">
-
+<div class="accordion-item">
+<h2 class="accordion-header" id="news2022-heading">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#news2022-content" aria-expanded="true" aria-controls="collapse2022">
+2022
+</button>
+</h2>
+<div id="news2022-content" class="accordion-collapse collapse" aria-labelledby="news2022-heading" data-bs-parent="#news">
+<div class="accordion-body">
 <ul>
 <li><p>09/2022: I'm serving on the senior program committee for the <a href="https://www2023.thewebconf.org/">ACM Web Conference 2023</a> (formerly WWW). Please consider submitting your work (abstracts due 6 October).</p></li>
 <li><p>05/2022: Our paper on <a href="https://www.usenix.org/conference/usenixsecurity22/presentation/sudhodanan">Pre-hijacked accounts: An Empirical Study of Security Failures in User Account Creation on the Web</a> has been accepted for presentation and publication at <a href="https://www.usenix.org/conference/usenixsecurity22/">USENIX Security 2022</a>. Summary available on the <a href="https://msrc-blog.microsoft.com/2022/05/23/pre-hijacking-attacks/">MSRC Blog</a>.</p></li>
@@ -115,16 +121,16 @@
 
 </div>
 </div>
-</div> 
+</div>
 
-
-<div class="panel panel-default">
-  <div class="panel-heading clickable" data-toggle="collapse" data-parent="#accordion" href="#news2021">
-  <h4 class="panel-title">2021</h4>
-    </div>
-<div id="news2021" class="panel-collapse collapse">
-<div class="panel-body">
-
+<div class="accordion-item">
+<h2 class="accordion-header" id="news2021-heading">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#news2021-content" aria-expanded="true" aria-controls="collapse2021">
+2021
+</button>
+</h2>
+<div id="news2021-content" class="accordion-collapse collapse" aria-labelledby="news2021-heading" data-bs-parent="#news">
+<div class="accordion-body">
 <ul>
 <li><p>12/2021: Great to work with Will Pearce and the other co-authors on Microsoft's <a href="https://github.com/Azure/AI-Security-Risk-Assessment">AI Security Risk Assessment</a> whitepaper.</p></li>
 <li><p>10/2021: I'm honoured to have been selected for a 2020/21 Departmental Teaching Award from the University of Oxford Department of Computer Science.</p></li>
@@ -140,15 +146,16 @@
 
 </div>
 </div>
-</div>  
+</div>
 
-<div class="panel panel-default">
-  <div class="panel-heading clickable" data-toggle="collapse" data-parent="#accordion" href="#news2020">
-  <h4 class="panel-title">2020</h4>
-   </div>
-<div id="news2020" class="panel-collapse collapse">
-<div class="panel-body">
-
+<div class="accordion-item">
+<h2 class="accordion-header" id="news2020-heading">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#news2020-content" aria-expanded="true" aria-controls="collapse2020">
+2020
+</button>
+</h2>
+<div id="news2020-content" class="accordion-collapse collapse" aria-labelledby="news2020-heading" data-bs-parent="#news">
+<div class="accordion-body">
 <ul>
 <li><p>11/2020: An extended version of our paper <a href="https://arxiv.org/abs/1909.11601">PDoT: Private DNS-over-TLS with TEE Support</a> has been accepted for publication in <a href="https://dl.acm.org/journal/dtrap">ACM Digital Threats: Research and Practice (DTRAP)</a>.</p></li>
 <li><p>10/2020: I'm serving on the program committee for the <a href="https://www.ieee-security.org/TC/EuroSP2021/index.html">6th IEEE European Symposium on Security and Privacy (Euro S&P) 2021</a>.</p></li>
@@ -164,13 +171,14 @@
 </div>
 </div>
 
-<div class="panel panel-default">
-  <div class="panel-heading clickable" data-toggle="collapse" data-parent="#accordion" href="#news2019">
-  <h4 class="panel-title">2019</h4>
-   </div>
-<div id="news2019" class="panel-collapse collapse">
-<div class="panel-body">
-
+<div class="accordion-item">
+<h2 class="accordion-header" id="news2019-heading">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#news2019-content" aria-expanded="true" aria-controls="collapse2019">
+2019
+</button>
+</h2>
+<div id="news2019-content" class="accordion-collapse collapse" aria-labelledby="news2019-heading" data-bs-parent="#news">
+<div class="accordion-body">
 <ul>
 <li><p>09/2019: Our paper <a href="https://arxiv.org/abs/1909.11601">PDoT: Private DNS-over-TLS with TEE Support</a> has been accepted for presentation and publication at the 2019 <a href="https://www.acsac.org/2019/program/">Annual Computer Security Applications Conference (ACSAC)</a>.</p></li>
 <li><p>08/2019: Our paper <a href="https://arxiv.org/abs/1810.06080">S-FaaS: Trustworthy and Accountable Function-as-a-Service using Intel SGX</a> has been accepted for presentation and publication at the 2019 ACM Cloud Computing Workshop (CCSW).</p></li>
@@ -185,13 +193,14 @@
 </div>
 </div>
 
-<div class="panel panel-default">
-  <div class="panel-heading clickable" data-toggle="collapse" data-parent="#accordion" href="#news2018">
-  <h4 class="panel-title">2018</h4>
-   </div>
-<div id="news2018" class="panel-collapse collapse">
-<div class="panel-body">
-
+<div class="accordion-item">
+<h2 class="accordion-header" id="news2018-heading">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#news2018-content" aria-expanded="true" aria-controls="collapse2018">
+2018
+</button>
+</h2>
+<div id="news2018-content" class="accordion-collapse collapse" aria-labelledby="news2018-heading" data-bs-parent="#news">
+<div class="accordion-body">
 <ul>
 <li><p>11/2018: Excited to announce that I've started a new job as a Researcher at <a href="https://www.microsoft.com/en-us/research/people/anpaverd/">Microsoft Research Cambridge</a>.</p></li>
 <li><p>08/2018: Our paper <a href="https://arxiv.org/abs/1808.06478">Mitigating Branch-Shadowing Attacks on Intel SGX using Control Flow Randomization</a> has been accepted for <a href="https://systex18.ibr.cs.tu-bs.de/">SysTEX 2018</a>.</p></li>
@@ -208,13 +217,14 @@
 </div>
 </div>
 
-<div class="panel panel-default">
-  <div class="panel-heading clickable" data-toggle="collapse" data-parent="#accordion" href="#news2017">
-  <h4 class="panel-title">2017</h4>
-  </div>
-<div id="news2017" class="panel-collapse collapse">
-<div class="panel-body">
-
+<div class="accordion-item">
+<h2 class="accordion-header" id="news2017-heading">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#news2017-content" aria-expanded="true" aria-controls="collapse2017">
+2017
+</button>
+</h2>
+<div id="news2017-content" class="accordion-collapse collapse" aria-labelledby="news2017-heading" data-bs-parent="#news">
+<div class="accordion-body">
 <ul>
 <li><p>11/2017: I have been selected as one of the recipients of the <a href="http://www.fulbright.org.uk/alumni/meet-our-fulbrighters/british-fulbright-scholar-award-grantees"> US-UK Fulbright Cyber Security Scholar Award</a> for 2017-18. I will be visiting <a href="http://www.ics.uci.edu/~gts/">Gene Tsudik</a> at the University of California, Irvine in Summer 2018.</p></li>
 <li><p>10/2017: [<a href="students.html">Students</a>] Klaudia Krawiecka's masters thesis <a href="https://aaltodoc.aalto.fi/handle/123456789/27920">Improving Web Security Using Trusted Hardware</a> has been selected as the best Information Security masters thesis in Finland for 2016-17. See press releases from <a href="http://cs.aalto.fi/en/current/news/2017-10-27-002/">Aalto</a>, <a href="https://tietoturva.fi/toiminta/opinnaeytetyoekilpailu">Tietoturva</a>, <a href="http://tivia.fi/uutinen/tietoturva-ry-palkitsi-vuoden-parhaat-tietoturva-aiheiset-opinnaytetyot">Tivia</a>, and <a href="http://www.cs.ox.ac.uk/news/1420-full.html">Oxford</a>. Congratulations Klaudia!</p></li>
@@ -233,13 +243,14 @@
 </div>
 </div>
 
-<div class="panel panel-default">
-  <div class="panel-heading clickable" data-toggle="collapse" data-parent="#accordion" href="#news2016">
-  <h4 class="panel-title">2016</h4>
-  </div>
-<div id="news2016" class="panel-collapse collapse">
-<div class="panel-body">
-
+<div class="accordion-item">
+<h2 class="accordion-header" id="news2016-heading">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#news2016-content" aria-expanded="true" aria-controls="collapse2016">
+2016
+</button>
+</h2>
+<div id="news2016-content" class="accordion-collapse collapse" aria-labelledby="news2016-heading" data-bs-parent="#news">
+<div class="accordion-body">
 <ul>
 <li><p>10/2016: [<a href="teaching.html">Teaching</a>] Our proposal for a summer academy on the topic of Legal and Technical Aspects of Digital Privacy has been accepted by the Studienstiftung des deutschen Volkes.</p></li>
 </ul>
@@ -257,43 +268,43 @@
 <div class="col-sm-10">
 <h3>Vita</h3>
 
-<table class="table table-hover">
+<table class="table">
     <tbody>
       <tr>
-        <td>11/2022 - present</td>
+        <th scope="row">11/2022 - present</th>
         <td>Principal Research Manager, <a href="https://www.microsoft.com/en-us/msrc">Microsoft Security Response Center</a> (MSRC)<br></td>
       </tr>
       <tr>
-        <td>11/2018 - 11/2022</td>
+        <th scope="row">11/2018 - 11/2022</th>
         <td>Senior Researcher, <a href="https://www.microsoft.com/en-us/msrc">Microsoft Security Response Center</a> (MSRC)<br></td>
       </tr>
       <tr>
-        <td>05/2018 - 08/2018</td>
+        <th scope="row">05/2018 - 08/2018</th>
         <td><a href="http://www.fulbright.org.uk/about-us/meet-our-fulbrighters/british-fulbright-scholar-award-grantees">Fulbright Cyber Security Scholar</a>, University of California, Irvine, USA<br>
             Hosted by <a href="http://www.ics.uci.edu/~gts/">Gene Tsudik</a></td>
       </tr>
       <tr>
-        <td>10/2017 - 11/2018</td>
+        <th scope="row">10/2017 - 11/2018</th>
         <td>Research Fellow, Aalto University, Finland<br>
             Deputy Directory of the <a href="https://haic.aalto.fi/">Helsinki-Aalto Center for Information Security (HAIC)</a></td>
       </tr>
       <tr>
-        <td>10/2015 - 09/2017</td>
+        <th scope="row">10/2015 - 09/2017</th>
         <td>Post-doctoral researcher, Aalto University, Finland<br>
             Secure Systems Group with <a href="https://asokan.org/asokan/">N. Asokan</a></td>
       </tr>
       <tr>
-        <td>10/2011 - 09/2015</td>
+        <th scope="row">10/2011 - 09/2015</th>
         <td>DPhil Computer Science, University of Oxford (Balliol College)<br>
             Supervisors: <a href="https://www.cs.ox.ac.uk/andrew.martin/">Andrew Martin</a> and <a href="https://twitter.com/1br0wn">Ian Brown</a></td>
       </tr>
       <tr>
-        <td>01/2011 - 09/2011</td>
+        <th scope="row">01/2011 - 09/2011</th>
         <td>M.Sc. Electrical & Computer Engineering, University of Cape Town<br>
             Supervisor: <a href="http://radarmasters.co.za/staff-members/mike-inggs/">Mike Inggs</a></td>
       </tr>
       <tr>
-        <td>01/2007 - 12/2010</td>
+        <th scope="row">01/2007 - 12/2010</th>
         <td>B.Sc. Electrical Engineering, University of the Witwatersrand, Johannesburg</td>
       </tr>
     </tbody>
