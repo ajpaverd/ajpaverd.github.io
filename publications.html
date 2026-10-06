@@ -53,44 +53,52 @@
   </div>
 </nav>
 
-<div class="container">
+<div class="container" id="pub-list">
 
 
 <p>Publication lists and citation counts also available from <a href="http://dblp.uni-trier.de/pers/hd/p/Paverd:Andrew">DBLP</a> and <a href="https://scholar.google.fi/citations?user=QZ2HOkMAAAAJ&hl=en">Google Scholar</a>.</p>
+
+<div class="btn-group" role="group" aria-label="Filter publications by type" id="pub-filter" style="margin-bottom:20px">
+  <button type="button" class="btn btn-outline-light active" data-filter="all">All</button>
+  <button type="button" class="btn btn-outline-light" data-filter="conference">Conference</button>
+  <button type="button" class="btn btn-outline-light" data-filter="journal">Journal</button>
+  <button type="button" class="btn btn-outline-light" data-filter="patent">Patent</button>
+  <button type="button" class="btn btn-outline-light" data-filter="thesis">Thesis</button>
+</div>
 
 <hr>
 
 <h4>2026</h4>
 
 <!-- Article: Securing AI Agents with Information-Flow Control  -->
-<p style="margin-left:25px;"><a href="https://arxiv.org/abs/2505.23643">Securing AI Agents with Information-Flow Control</a><br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://arxiv.org/abs/2505.23643">Securing AI Agents with Information-Flow Control</a><br/>
 Manuel Costa, Boris Köpf, Aashish Kolluri, Andrew Paverd, Mark Russinovich, Ahmed Salem, Shruti Tople, Lukas Wutschitz, Santiago Zanella-Béguelin<br/>
 Conference on Neural Information Processing Systems (NeurIPS), 2026</p>
 
 <!-- Article: LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge  -->
-<p style="margin-left:25px;"><a href="https://arxiv.org/abs/2506.09956">LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge</a><br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://arxiv.org/abs/2506.09956">LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge</a><br/>
 Sahar Abdelnabi, Aideen Fay, Ahmed Salem, Egor Zverev, Benjamin Pannell, Conor McCauley, Mark Russinovich, Andrew Paverd, Giovanni Cherubin<br/>
 Empirical Methods in Natural Language Processing (EMNLP), 2026</p>
 
 <!-- Article: ExclaveFL: Verifiable Claims for Federated Learning using Exclaves  -->
-<p style="margin-left:25px;"><a href="https://arxiv.org/abs/2412.10537">ExclaveFL: Verifiable Claims for Federated Learning using Exclaves</a><br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://arxiv.org/abs/2412.10537">ExclaveFL: Verifiable Claims for Federated Learning using Exclaves</a><br/>
 Jinnan Guo, Kapil Vaswani, Andrew Paverd, Peter Pietzuch<br/>
 ACM Symposium on Cloud Computing (SoCC), 2026</p>
 
 <!-- Article: Trusted and Transparent Time-Stamping Through TEEs and Network Time Security  -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/3805690.3805731">Trusted and Transparent Time-Stamping Through TEEs and Network Time Security</a><br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/doi/10.1145/3805690.3805731">Trusted and Transparent Time-Stamping Through TEEs and Network Time Security</a><br/>
 Tobias Nießen, Andrew Paverd<br/>
 SysTEX@EuroSys, 2026</p>
 
-<p style="margin-left:25px;"><a href="https://patents.google.com/patent/US12632538">US12632538: Enclave cloning</a><br/>
-Alexander Shamis, Yoshimichi Nakatsuka, Peter Robert Pietzuch, Andrew James Paverd, Ercan Ozturk</p>
+<p style="margin-left:25px;" data-type="patent"><a href="https://patents.google.com/patent/US12632538">US12632538: Enclave cloning</a><br/>
+Alexander Shamis, Yoshimichi Nakatsuka, Peter Pietzuch, Andrew Paverd, Ercan Ozturk</p>
 
 <!-- Article: Stateless Yet Not Forgetful: Implicit Memory as a Hidden Channel in LLMs  -->
-<p style="margin-left:25px;"><a href="https://arxiv.org/abs/2602.08563">Position: Stateless Yet Not Forgetful: Implicit Memory as a Hidden Channel in LLMs</a><br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://arxiv.org/abs/2602.08563">Position: Stateless Yet Not Forgetful: Implicit Memory as a Hidden Channel in LLMs</a><br/>
 Ahmed Salem, Andrew Paverd, Sahar Abdelnabi<br/>
 IEEE Secure and Trustworthy Machine Learning (SaTML), 2026</p>
 
-<p style="margin-left:25px;"><a href="https://patents.google.com/patent/US12519829">US12519829: Defending large generative models from prompt injection attacks</a><br/>
+<p style="margin-left:25px;" data-type="patent"><a href="https://patents.google.com/patent/US12519829">US12519829: Defending large generative models from prompt injection attacks</a><br/>
 Ahmed Salem, Andrew Paverd, Boris Köpf</p>
 
 <hr>
@@ -98,7 +106,7 @@ Ahmed Salem, Andrew Paverd, Boris Köpf</p>
 <h4>2025</h4>
 
 <!-- Article: Get my drift? Catching LLM Task Drift with Activation Deltas  -->
-<p style="margin-left:25px;"><a href="https://ieeexplore.ieee.org/document/10992559">Get my drift? Catching LLM Task Drift with Activation Deltas</a> [<a href="https://arxiv.org/abs/2406.00799">arXiv report</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://ieeexplore.ieee.org/document/10992559">Get my drift? Catching LLM Task Drift with Activation Deltas</a> [<a href="https://arxiv.org/abs/2406.00799">arXiv report</a>]<br/>
 Sahar Abdelnabi, Aideen Fay, Giovanni Cherubin, Ahmed Salem, Mario Fritz, Andrew Paverd<br/>
 IEEE Secure and Trustworthy Machine Learning (SaTML), 2025</p>
 
@@ -107,12 +115,12 @@ IEEE Secure and Trustworthy Machine Learning (SaTML), 2025</p>
 <h4>2024</h4>
 
 <!-- Article: Closed-Form Bounds for DP-SGD against Record-level Inference Attacks  -->
-<p style="margin-left:25px;"><a href="https://www.usenix.org/conference/usenixsecurity24/presentation/cherubin">Closed-Form Bounds for DP-SGD against Record-level Inference Attacks</a> [<a href="https://arxiv.org/abs/2402.14397">arXiv report</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://www.usenix.org/conference/usenixsecurity24/presentation/cherubin">Closed-Form Bounds for DP-SGD against Record-level Inference Attacks</a> [<a href="https://arxiv.org/abs/2402.14397">arXiv report</a>]<br/>
 Giovanni Cherubin, Boris Köpf, Andrew Paverd, Shruti Tople, Lukas Wutschitz, Santiago Zanella-Béguelin<br/>
 USENIX Security Symposium, 2024</p>
 
 <!-- Article: Trustworthy AI using Confidential Federated Learning: Federated learning and confidential computing are not competing technologies  -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/3665220">Trustworthy AI using Confidential Federated Learning: Federated learning and confidential computing are not competing technologies</a><br/>
+<p style="margin-left:25px;" data-type="journal"><a href="https://dl.acm.org/doi/10.1145/3665220">Trustworthy AI using Confidential Federated Learning: Federated learning and confidential computing are not competing technologies</a><br/>
 Jinnan Guo, Peter Pietzuch, Andrew Paverd, Kapil Vaswani<br/>
 ACM Queue, Volume 22, Issue 2, 2024</p>
 
@@ -121,7 +129,7 @@ ACM Queue, Volume 22, Issue 2, 2024</p>
 <h4>2023</h4>
 
 <!-- Article: An Empirical Study & Evaluation of Modern CAPTCHAs  -->
-<p style="margin-left:25px;"><a href="https://www.usenix.org/conference/usenixsecurity23/presentation/searles">An Empirical Study & Evaluation of Modern CAPTCHAs</a> [<a href="https://arxiv.org/abs/2307.12108">arXiv report</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://www.usenix.org/conference/usenixsecurity23/presentation/searles">An Empirical Study & Evaluation of Modern CAPTCHAs</a> [<a href="https://arxiv.org/abs/2307.12108">arXiv report</a>]<br/>
 Andrew Searles, Yoshimichi Nakatsuka, Ercan Ozturk, Andrew Paverd, Gene Tsudik, Ai Enkoji<br/>
 USENIX Security Symposium, 2023<br/>
 Selected blogs and media: <a href="https://www.newscientist.com/article/2384228-bots-are-better-at-beating-are-you-a-robot-tests-than-humans-are/">New Scientist</a>, 
@@ -133,17 +141,17 @@ Selected blogs and media: <a href="https://www.newscientist.com/article/2384228-
 <a href="https://x.com/elonmusk/status/1691969296543711471">Elon Musk (@elonmusk)</a></p>
 
 <!-- Article: Bayesian Estimation of Differential Privacy  -->
-<p style="margin-left:25px;"><a href="https://proceedings.mlr.press/v202/zanella-beguelin23a.html">Bayesian Estimation of Differential Privacy</a> [<a href="https://arxiv.org/abs/2206.05199">arXiv report</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://proceedings.mlr.press/v202/zanella-beguelin23a.html">Bayesian Estimation of Differential Privacy</a> [<a href="https://arxiv.org/abs/2206.05199">arXiv report</a>]<br/>
 Santiago Zanella-Béguelin, Lukas Wutschitz, Shruti Tople, Ahmed Salem, Victor Rühle, Andrew Paverd, Mohammad Naseri, Boris Köpf, Daniel Jones<br/>
 International Conference on Machine Learning (ICML), 2023</p>
 
 <!-- Article: SoK: Let The Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning  -->
-<p style="margin-left:25px;"><a href="https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.00193">SoK: Let The Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning</a> [<a href="https://arxiv.org/abs/2212.10986">arXiv report</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.00193">SoK: Let The Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning</a> [<a href="https://arxiv.org/abs/2212.10986">arXiv report</a>]<br/>
 Ahmed Salem, Giovanni Cherubin, David Evans, Boris Köpf, Andrew Paverd, Anshuman Suri, Shruti Tople, Santiago Zanella-Béguelin<br/>
 IEEE Symposium on Security and Privacy, 2023</p>
 
 <!-- Article: VICEROY: GDPR-/CCPA-compliant Enforcement of Verifiable Accountless Consumer Requests  -->
-<p style="margin-left:25px;"><a href="https://www.ndss-symposium.org/ndss-paper/auto-draft-336/">VICEROY: GDPR-/CCPA-compliant Enforcement of Verifiable Accountless Consumer Requests</a> [<a href="https://arxiv.org/abs/2105.06942">arXiv report</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://www.ndss-symposium.org/ndss-paper/auto-draft-336/">VICEROY: GDPR-/CCPA-compliant Enforcement of Verifiable Accountless Consumer Requests</a> [<a href="https://arxiv.org/abs/2105.06942">arXiv report</a>]<br/>
 Scott Jordan, Yoshimichi Nakatsuka, Ercan Ozturk, Andrew Paverd, Gene Tsudik<br/>
 Network and Distributed System Security Symposium, 2023, <mark>Best poster award</mark></p>
 
@@ -152,7 +160,7 @@ Network and Distributed System Security Symposium, 2023, <mark>Best poster award
 <h4>2022</h4>
 
 <!-- Article: Pre-hijacked accounts: An Empirical Study of Security Failures in User Account Creation on the Web  -->
-<p style="margin-left:25px;"><a href="https://www.usenix.org/conference/usenixsecurity22/presentation/sudhodanan">Pre-hijacked accounts: An Empirical Study of Security Failures in User Account Creation on the Web</a> [<a href="https://arxiv.org/abs/2205.10174">arXiv report</a>, <a href="https://www.usenix.org/conference/usenixsecurity22/presentation/sudhodanan">video</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://www.usenix.org/conference/usenixsecurity22/presentation/sudhodanan">Pre-hijacked accounts: An Empirical Study of Security Failures in User Account Creation on the Web</a> [<a href="https://arxiv.org/abs/2205.10174">arXiv report</a>, <a href="https://www.usenix.org/conference/usenixsecurity22/presentation/sudhodanan">video</a>]<br/>
 Avinash Sudhodanan, Andrew Paverd<br/>
 USENIX Security Symposium, 2022<br/>
 Selected blogs and media: <a href="https://msrc-blog.microsoft.com/2022/05/23/pre-hijacking-attacks/">MSRC</a>,
@@ -170,17 +178,17 @@ Selected blogs and media: <a href="https://msrc-blog.microsoft.com/2022/05/23/pr
 <h4>2021</h4>
 
 <!-- Article: Grey-box Extraction of Natural Language Models -->
-<p style="margin-left:25px;"><a href="http://proceedings.mlr.press/v139/zanella-beguelin21a.html">Grey-box Extraction of Natural Language Models</a> [<a href="https://www.microsoft.com/en-us/research/publication/grey-box-extraction-of-natural-language-models/">Open access</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="http://proceedings.mlr.press/v139/zanella-beguelin21a.html">Grey-box Extraction of Natural Language Models</a> [<a href="https://www.microsoft.com/en-us/research/publication/grey-box-extraction-of-natural-language-models/">Open access</a>]<br/>
 Santiago Zanella-Béguelin, Shruti Tople, Andrew Paverd, Boris Köpf<br/>
 International Conference on Machine Learning (ICML), 2021</p>
 
 <!-- Article: CACTI: Captcha Avoidance via Client-side TEE Integration  -->
-<p style="margin-left:25px;"><a href="https://www.usenix.org/conference/usenixsecurity21/presentation/nakatsuka">CACTI: Captcha Avoidance via Client-side TEE Integration</a> [<a href="https://arxiv.org/abs/2007.10397">arXiv report</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://www.usenix.org/conference/usenixsecurity21/presentation/nakatsuka">CACTI: Captcha Avoidance via Client-side TEE Integration</a> [<a href="https://arxiv.org/abs/2007.10397">arXiv report</a>]<br/>
 Yoshimichi Nakatsuka, Ercan Ozturk, Andrew Paverd, Gene Tsudik<br/>
 USENIX Security Symposium, 2021</p>
 
 <!-- Article: PDoT: Private DNS-over-TLS with TEE Support -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/3431171?cid=99658635926">PDoT: Private DNS-over-TLS with TEE Support</a> [<a href="https://arxiv.org/abs/1909.11601">arXiv report</a>, <a href="https://github.com/sprout-uci/PDoT">source code</a>]<br/>
+<p style="margin-left:25px;" data-type="journal"><a href="https://dl.acm.org/doi/10.1145/3431171?cid=99658635926">PDoT: Private DNS-over-TLS with TEE Support</a> [<a href="https://arxiv.org/abs/1909.11601">arXiv report</a>, <a href="https://github.com/sprout-uci/PDoT">source code</a>]<br/>
 Yoshimichi Nakatsuka, Andrew Paverd, Gene Tsudik<br/>
 ACM Digital Threats: Research and Practice, Volume 2, Issue 1, 2021</p>
 
@@ -189,11 +197,11 @@ ACM Digital Threats: Research and Practice, Volume 2, Issue 1, 2021</p>
 <h4>2020</h4>
 
 <!-- Article: Analyzing Information Leakage of Updates to Natural Language Models -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/3372297.3417880?cid=99658635926">Analyzing Information Leakage of Updates to Natural Language Models</a> [<a href="https://arxiv.org/abs/1912.07942">arXiv report</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/doi/10.1145/3372297.3417880?cid=99658635926">Analyzing Information Leakage of Updates to Natural Language Models</a> [<a href="https://arxiv.org/abs/1912.07942">arXiv report</a>]<br/>
 Santiago Zanella-Béguelin, Lukas Wutschitz, Shruti Tople, Victor Rühle, Andrew Paverd, Olga Ohrimenko, Boris Köpf, Marc Brockschmidt<br/>
 ACM Conference on Computer and Communication Security (CCS), 2020</p>
 
-<p style="margin-left:25px;"><a href="https://patents.google.com/patent/US10664353">US10664353: Method and system for byzantine fault-tolerance replicating of data on a plurality of servers</a><br/>
+<p style="margin-left:25px;" data-type="patent"><a href="https://patents.google.com/patent/US10664353">US10664353: Method and system for byzantine fault-tolerance replicating of data on a plurality of servers</a><br/>
 Ghassan Karame, Wenting Li, Jian Liu, Nadarajah Asokan, Andrew Paverd</p>
 
 <hr>
@@ -201,30 +209,30 @@ Ghassan Karame, Wenting Li, Jian Liu, Nadarajah Asokan, Andrew Paverd</p>
 <h4>2019</h4>
 
 <!-- Article: PDoT: Private DNS-over-TLS with TEE Support -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/3359789.3359793?cid=99658635926">PDoT: Private DNS-over-TLS with TEE Support</a> [<a href="https://arxiv.org/abs/1909.11601">arXiv report</a>, <a href="https://github.com/sprout-uci/PDoT">source code</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/doi/10.1145/3359789.3359793?cid=99658635926">PDoT: Private DNS-over-TLS with TEE Support</a> [<a href="https://arxiv.org/abs/1909.11601">arXiv report</a>, <a href="https://github.com/sprout-uci/PDoT">source code</a>]<br/>
 Yoshimichi Nakatsuka, Andrew Paverd, Gene Tsudik<br/>
 Annual Computer Security Applications Conference (ACSAC), 2019</p>
 
 <!-- Article: S-FaaS: Trustworthy and Accountable Function-as-a-Service using Intel SGX -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/3338466.3358916?cid=99658635926">S-FaaS: Trustworthy and Accountable Function-as-a-Service using Intel SGX</a> [<a href="https://arxiv.org/abs/1810.06080">arXiv report</a>, <a href="https://github.com/SSGAalto/sfaas">source code</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/doi/10.1145/3338466.3358916?cid=99658635926">S-FaaS: Trustworthy and Accountable Function-as-a-Service using Intel SGX</a> [<a href="https://arxiv.org/abs/1810.06080">arXiv report</a>, <a href="https://github.com/SSGAalto/sfaas">source code</a>]<br/>
 Fritz Alder, N. Asokan, Arseny Kurnikov, Andrew Paverd, Michael Steiner<br/>
 ACM Cloud Computing Security Workshop (CCSW), 2019</p>
 
 <!-- Article: Sustainable Security & Safety: Challenges and Opportunities -->
-<p style="margin-left:25px;"><a href="http://dx.doi.org/10.4230/OASIcs.CERTS.2019.4">Sustainable Security & Safety: Challenges and Opportunities</a><br/>
+<p style="margin-left:25px;" data-type="conference"><a href="http://dx.doi.org/10.4230/OASIcs.CERTS.2019.4">Sustainable Security & Safety: Challenges and Opportunities</a><br/>
 Andrew Paverd, Marcus Völp, Ferdinand Brasser, Matthias Schunter, N. Asokan, Ahmad-Reza Sadeghi, Paulo Esteves-Veríssimo, Andreas Steininger, Thorsten Holz<br/>
 4th International Workshop on Security and Dependability of Critical Embedded Real-Time Systems (CERTS), 2019</p>
 
 <!-- Article: HardScope: Hardening Embedded Systems Against Data-Oriented Attacks -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/3316781.3317836?cid=99658635926">HardScope: Hardening Embedded Systems Against Data-Oriented Attacks</a> [<a href="https://arxiv.org/abs/1705.10295">arXiv report</a>, <a href="https://github.com/runtime-scope-enforcement/">source code</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/doi/10.1145/3316781.3317836?cid=99658635926">HardScope: Hardening Embedded Systems Against Data-Oriented Attacks</a> [<a href="https://arxiv.org/abs/1705.10295">arXiv report</a>, <a href="https://github.com/runtime-scope-enforcement/">source code</a>]<br/>
 Thomas Nyman, Ghada Dessouky, Shaza Zeitouni, Aaro Lehikoinen, Andrew Paverd, N. Asokan, Ahmad-Reza Sadeghi<br/>
 56th Annual Design Automation Conference (DAC), 2019</p>
 
-<p style="margin-left:25px;"><a href="https://ieeexplore.ieee.org/abstract/document/8642293">Smart Grid Metering Networks: A Survey on Security, Privacy and Open Research Issues</a> [<a href="https://ora.ox.ac.uk/objects/uuid:a1a56a1c-af14-4e7d-a65a-4feec5177994/download_file?file_format=pdf&safe_filename=MainFile_FinalAcceptedDraft.pdf">Open access</a>]<br/>
+<p style="margin-left:25px;" data-type="journal"><a href="https://ieeexplore.ieee.org/abstract/document/8642293">Smart Grid Metering Networks: A Survey on Security, Privacy and Open Research Issues</a> [<a href="https://ora.ox.ac.uk/objects/uuid:a1a56a1c-af14-4e7d-a65a-4feec5177994/download_file?file_format=pdf&safe_filename=MainFile_FinalAcceptedDraft.pdf">Open access</a>]<br/>
 Pardeep Kumar, Yun Lin, Guangdong Bai, Andrew Paverd, Jin Song Dong, Andrew Martin<br/>
 IEEE Communications Surveys and Tutorials, Volume 21, Issue 3, 2019</p>
 
-<p style="margin-left:25px;"><a href="https://patents.google.com/patent/US10228929">US10228929: Method and apparatus for modifying a computer program in a trusted manner</a><br/>
+<p style="margin-left:25px;" data-type="patent"><a href="https://patents.google.com/patent/US10228929">US10228929: Method and apparatus for modifying a computer program in a trusted manner</a><br/>
 Fadi Ali El-Moussa, Andrew Paverd</p>
 
 <hr>
@@ -232,39 +240,39 @@ Fadi Ali El-Moussa, Andrew Paverd</p>
 <h4>2018</h4>
 
 <!-- ACM DL Article: Mitigating Branch-Shadowing Attacks on Intel SGX using Control Flow Randomization -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/3268935.3268940?cid=99658635926">Mitigating Branch-Shadowing Attacks on Intel SGX using Control Flow Randomization</a> [<a href="https://arxiv.org/abs/1808.06478">arXiv report</a>, <a href="https://github.com/SSGAalto/sgx-branch-shadowing-mitigation">source code</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/doi/10.1145/3268935.3268940?cid=99658635926">Mitigating Branch-Shadowing Attacks on Intel SGX using Control Flow Randomization</a> [<a href="https://arxiv.org/abs/1808.06478">arXiv report</a>, <a href="https://github.com/SSGAalto/sgx-branch-shadowing-mitigation">source code</a>]<br/>
 Shohreh Hosseinzadeh, Hans Liljestrand, Ville Leppänen, Andrew Paverd<br/>
 3rd Workshop on System Software for Trusted Execution (SysTEX), 2018</p>
 
 <!-- Article: Keys in the Clouds: Auditable Multi-device Access to Cryptographic Credentials -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/3230833.3234518?cid=99658635926">Keys in the Clouds: Auditable Multi-device Access to Cryptographic Credentials</a> [<a href="https://arxiv.org/abs/1804.08569">arXiv report</a>, <a href="https://github.com/cloud-key-store">source code</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/doi/10.1145/3230833.3234518?cid=99658635926">Keys in the Clouds: Auditable Multi-device Access to Cryptographic Credentials</a> [<a href="https://arxiv.org/abs/1804.08569">arXiv report</a>, <a href="https://github.com/cloud-key-store">source code</a>]<br/>
 Arseny Kurnikov, Andrew Paverd, Mohammad Mannan, N. Asokan<br/>
 3rd Workshop on Security, Privacy, and Identity Management in the Cloud (SECPID), 2018</p>
 
 <!-- Article: Migrating SGX Enclaves with Persistent State -->
-<p style="margin-left:25px;"><a href="https://ieeexplore.ieee.org/document/8416483/">Migrating SGX Enclaves with Persistent State</a> [<a href="https://arxiv.org/abs/1803.11021">arXiv report</a>, <a href="https://github.com/sgx-cloud">source code</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://ieeexplore.ieee.org/document/8416483/">Migrating SGX Enclaves with Persistent State</a> [<a href="https://arxiv.org/abs/1803.11021">arXiv report</a>, <a href="https://github.com/sgx-cloud">source code</a>]<br/>
 Fritz Alder, Arseny Kurnikov, Andrew Paverd, N. Asokan<br/>
 48th IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), 2018</p>
 
 <!-- Article: SafeKeeper: Protecting Web Passwords Using Trusted Execution Environments -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/citation.cfm?id=3186101">SafeKeeper: Protecting Web Passwords Using Trusted Execution Environments</a> [<a href="https://arxiv.org/abs/1709.01261">arXiv report</a>, <a href="https://github.com/safekeeper">source code</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/citation.cfm?id=3186101">SafeKeeper: Protecting Web Passwords Using Trusted Execution Environments</a> [<a href="https://arxiv.org/abs/1709.01261">arXiv report</a>, <a href="https://github.com/safekeeper">source code</a>]<br/>
 Klaudia Krawiecka, Arseny Kurnikov, Andrew Paverd, Mohammad Mannan, N. Asokan<br/>
 The Web Conference (WWW), 2018, <mark>Featured on <a href="https://blog.acolyer.org/2018/05/22/safekeeper-protecting-web-passwords-using-trusted-execution-environments/">The Morning Paper - May 22, 2018</a></mark></p>
 
 <!-- Article: Using SafeKeeper to Protect Web Passwords -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/citation.cfm?id=3186968">Demo: Using SafeKeeper to Protect Web Passwords</a><br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/citation.cfm?id=3186968">Demo: Using SafeKeeper to Protect Web Passwords</a><br/>
 Arseny Kurnikov, Klaudia Krawiecka, Andrew Paverd, Mohammad Mannan, N. Asokan<br/>
 The Web Conference (WWW): Demo Track, 2018</p>
 
-<p style="margin-left:25px;"><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/spe.2638">Towards Linux Kernel Memory Safety</a> [<a href="https://arxiv.org/abs/1710.06175">arXiv report</a>]<br/>
+<p style="margin-left:25px;" data-type="journal"><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/spe.2638">Towards Linux Kernel Memory Safety</a> [<a href="https://arxiv.org/abs/1710.06175">arXiv report</a>]<br/>
 Elena Reshetova, Hans Liljestrand, Andrew Paverd, N. Asokan<br/>
 Software: Practice and Experience, Volume 48, Issue 12, 2018</p>
 
-<p style="margin-left:25px;"><a href="https://ieeexplore.ieee.org/document/8424117/">OmniShare: Encrypted Cloud Storage for the Multi-Device Era</a> [<a href="https://arxiv.org/abs/1511.02119">arXiv report</a>, <a href="https://github.com/omnishare">source code</a>]<br/>
+<p style="margin-left:25px;" data-type="journal"><a href="https://ieeexplore.ieee.org/document/8424117/">OmniShare: Encrypted Cloud Storage for the Multi-Device Era</a> [<a href="https://arxiv.org/abs/1511.02119">arXiv report</a>, <a href="https://github.com/omnishare">source code</a>]<br/>
 Andrew Paverd, Sandeep Tamrakar, Hoang Long Nguyen, Praveen Pendyala, Duc Thien Nguyen, Elizabeth Stobert, Tommi Gröndahl, N. Asokan, Ahmad-Reza Sadeghi<br/>
 IEEE Internet Computing, Volume 22, Issue 4, July 2018.</p>
 
-<p style="margin-left:25px;"><a href="https://patents.google.com/patent/US10049017">US10049017: Method and system for byzantine fault-tolerance replicating of data on a plurality of servers</a><br/>
+<p style="margin-left:25px;" data-type="patent"><a href="https://patents.google.com/patent/US10049017">US10049017: Method and system for byzantine fault-tolerance replicating of data on a plurality of servers</a><br/>
 Ghassan Karame, Wenting Li, Jian Liu, N. Asokan, Andrew Paverd</p>
 
 <hr>
@@ -272,31 +280,31 @@ Ghassan Karame, Wenting Li, Jian Liu, N. Asokan, Andrew Paverd</p>
 <h4>2017</h4>
 
 <!-- Article: Formal Analysis of V2X Revocation Protocols -->
-<p style="margin-left:25px;"><a href="https://link.springer.com/chapter/10.1007%2F978-3-319-68063-7_10">Formal Analysis of V2X Revocation Protocols</a> [<a href="https://arxiv.org/abs/1704.07216">arXiv report</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://link.springer.com/chapter/10.1007%2F978-3-319-68063-7_10">Formal Analysis of V2X Revocation Protocols</a> [<a href="https://arxiv.org/abs/1704.07216">arXiv report</a>]<br/>
 Jorden Whitefield, Liqun Chen, Frank Kargl, Andrew Paverd, Steve Schneider, Helen Treharne, Stephan Wesemeyer<br/>
 13th International Workshop on Security and Trust Management (STM), 2017</p>
 
 <!-- ACM DL Article: LO-FAT: Low-Overhead Control Flow ATtestation in Hardware -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/3061639.3062276?cid=99658635926">LO-FAT: Low-Overhead Control Flow ATtestation in Hardware</a> [<a href="https://arxiv.org/abs/1706.03754">arXiv report</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/doi/10.1145/3061639.3062276?cid=99658635926">LO-FAT: Low-Overhead Control Flow ATtestation in Hardware</a> [<a href="https://arxiv.org/abs/1706.03754">arXiv report</a>]<br/>
 Ghada Dessouky, Shaza Zeitouni, Thomas Nyman, Andrew Paverd, Lucas Davi, Patrick Koeberl, N. Asokan, Ahmad-Reza Sadeghi<br/>
 54th Annual Design Automation Conference (DAC), 2017</p>
 
 <!-- ACM DL Article: The Circle Game: Scalable Private Membership Test Using Trusted Hardware -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/3052973.3053006?cid=99658635926">The Circle Game: Scalable Private Membership Test Using Trusted Hardware</a> [<a href="https://arxiv.org/abs/1606.01655">arXiv report</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/doi/10.1145/3052973.3053006?cid=99658635926">The Circle Game: Scalable Private Membership Test Using Trusted Hardware</a> [<a href="https://arxiv.org/abs/1606.01655">arXiv report</a>]<br/>
 Sandeep Tamrakar, Jian Liu, Andrew Paverd, Jan-Erik Ekberg, Benny Pinkas, N. Asokan<br/>
 ACM Asia Conference on Computer and Communications Security (ASIACCS), 2017 <mark>Honourable Mention</mark><br/>
 <mark>Finalist in the <a href="https://csaw.engineering.nyu.edu/research/finalists">CSAW Europe 2017 Applied Research Competition</a></mark></p>
 
 <!-- ACM DL Article: Security in Automotive Networks: Lightweight Authentication and Authorization -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/2960407?cid=99658635926" title="Security in Automotive Networks: Lightweight Authentication and Authorization">Security in Automotive Networks: Lightweight Authentication and Authorization</a> [<a href="https://arxiv.org/abs/1703.03652">arXiv report</a>]<br/>
+<p style="margin-left:25px;" data-type="journal"><a href="https://dl.acm.org/doi/10.1145/2960407?cid=99658635926" title="Security in Automotive Networks: Lightweight Authentication and Authorization">Security in Automotive Networks: Lightweight Authentication and Authorization</a> [<a href="https://arxiv.org/abs/1703.03652">arXiv report</a>]<br/>
 Philipp Mundhenk, Andrew Paverd, Artur Mrowca, Sebastian Steinhorst, Martin Lukasiewycz, Suhaib A. Fahmy, Samarjit Chakraborty<br/>
 ACM Transactions on Design Automation of Electronic Systems (TODAES), Volume 22, Issue 2, 2017, <mark><a href="https://todaes.acm.org/honors-and-awards.cfm">ACM TODAES Best Paper Award</a></mark></p>
   
-<p style="margin-left:25px;"><a href="https://www.riverpublishers.com/journal_read_html_article.php?j=JICTS/5/1/5">Auditable De-anonymization in V2X Communication</a><br/>
+<p style="margin-left:25px;" data-type="journal"><a href="https://www.riverpublishers.com/journal_read_html_article.php?j=JICTS/5/1/5">Auditable De-anonymization in V2X Communication</a><br/>
 Masoud Naderpour, Tommi Meskanen, Andrew Paverd, Valtteri Niemi<br/>
 Journal of ICT Standardization, Volume 5, Issue 1, 2017</p>
   
-<p style="margin-left:25px;"><a href="https://onlinelibrary.wiley.com/doi/10.1002/cpe.4130/full">A Framework for Application Partitioning using Trusted Execution Environments</a><br/>
+<p style="margin-left:25px;" data-type="journal"><a href="https://onlinelibrary.wiley.com/doi/10.1002/cpe.4130/full">A Framework for Application Partitioning using Trusted Execution Environments</a><br/>
 Ahmad Atamli, Andrew Paverd, Giuseppe Petracca, Andrew Martin<br/>
 Concurrency and Computation: Practice and Experience, Volume 29, Issue 23, 2017</p>
 
@@ -305,26 +313,26 @@ Concurrency and Computation: Practice and Experience, Volume 29, Issue 23, 2017<
 <h4>2016</h4>
 
 <!-- ACM DL Article: Protecting Password Databases using Trusted Hardware -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/3007788.3007798?cid=99658635926" title="Protecting Password Databases using Trusted Hardware">Protecting Password Databases using Trusted Hardware</a> [<a href="https://research.aalto.fi/files/10534624/Krawiecka_SGX_Passwords_2016.pdf">open access</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/doi/10.1145/3007788.3007798?cid=99658635926" title="Protecting Password Databases using Trusted Hardware">Protecting Password Databases using Trusted Hardware</a> [<a href="https://research.aalto.fi/files/10534624/Krawiecka_SGX_Passwords_2016.pdf">open access</a>]<br/>
 Klaudia Krawiecka, Andrew Paverd, N. Asokan<br/>
 1st Workshop on System Software for Trusted Execution (SysTEX), 2016</p>
 
 <!-- ACM DL Article: Exploring the use of Intel SGX for Secure Many-Party Applications -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/3007788.3007793?cid=99658635926" title="Exploring the use of Intel SGX for Secure Many-Party Applications">Exploring the use of Intel SGX for Secure Many-Party Applications</a> [<a href="https://ora.ox.ac.uk/objects/uuid:bacb5207-9828-40ea-99b3-f395f565030c/download_file?file_format=pdf&safe_filename=main.pdf&type_of_work=Conference+item">open access</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/doi/10.1145/3007788.3007793?cid=99658635926" title="Exploring the use of Intel SGX for Secure Many-Party Applications">Exploring the use of Intel SGX for Secure Many-Party Applications</a> [<a href="https://ora.ox.ac.uk/objects/uuid:bacb5207-9828-40ea-99b3-f395f565030c/download_file?file_format=pdf&safe_filename=main.pdf&type_of_work=Conference+item">open access</a>]<br/>
 Kubilay Ahmet Küçük, Andrew Paverd, Andrew Martin, N. Asokan, Andrew Simpson, Robin Ankele<br/>
 1st Workshop on System Software for Trusted Execution (SysTEX), 2016</p>
 
 <!-- ACM DL Article: C-FLAT: Control-Flow Attestation for Embedded Systems Software -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/2976749.2978358?cid=99658635926" title="C-FLAT: Control-Flow Attestation for Embedded Systems Software">C-FLAT: Control-Flow Attestation for Embedded Systems Software</a> [<a href="https://arxiv.org/abs/1605.07763">arXiv report</a>, <a href="https://github.com/control-flow-attestation">source code</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/doi/10.1145/2976749.2978358?cid=99658635926" title="C-FLAT: Control-Flow Attestation for Embedded Systems Software">C-FLAT: Control-Flow Attestation for Embedded Systems Software</a> [<a href="https://arxiv.org/abs/1605.07763">arXiv report</a>, <a href="https://github.com/control-flow-attestation">source code</a>]<br/>
 Tigist Abera, N. Asokan, Lucas Davi, Jan-Erik Ekberg, Thomas Nyman, Andrew Paverd, Ahmad-Reza Sadeghi, Gene Tsudik<br/>
 ACM SIGSAC Conference on Computer and Communications Security (CCS), 2016</p>
 
-<p style="margin-left:25px;"><a href="https://ieeexplore.ieee.org/document/7816873/">Applying the Trustworthy Remote Entity to Privacy-Preserving Multiparty Computation: Requirements and Criteria for Large-Scale Applications</a> [<a href="https://ora.ox.ac.uk/objects/uuid:acc212de-5bfc-43c5-b0eb-ed9d654498dc/download_file?file_format=pdf&safe_filename=paper.pdf&type_of_work=Conference">open access</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://ieeexplore.ieee.org/document/7816873/">Applying the Trustworthy Remote Entity to Privacy-Preserving Multiparty Computation: Requirements and Criteria for Large-Scale Applications</a> [<a href="https://ora.ox.ac.uk/objects/uuid:acc212de-5bfc-43c5-b0eb-ed9d654498dc/download_file?file_format=pdf&safe_filename=paper.pdf&type_of_work=Conference">open access</a>]<br/>
 Robin Ankele, Kubilay Ahmet Kücük, Andrew Martin, Andrew Simpson, Andrew Paverd<br/>
 IEEE International Conference on Advanced and Trusted Computing (ATC), 2016</p>
 
 <!-- ACM DL Article: Invited - Things, trouble, trust: on building trust in IoT systems -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/2897937.2905020?cid=99658635926" title="Invited - Things, trouble, trust: on building trust in IoT systems">Invited - Things, trouble, trust: on building trust in IoT systems</a><br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/doi/10.1145/2897937.2905020?cid=99658635926" title="Invited - Things, trouble, trust: on building trust in IoT systems">Invited - Things, trouble, trust: on building trust in IoT systems</a><br/>
 Tigist Abera, N. Asokan, Lucas Davi, Farinaz Koushanfar, Andrew Paverd, Ahmad-Reza Sadeghi, Gene Tsudik<br/>
 53rd Annual Design Automation Conference (DAC), 2016</p>
 
@@ -332,11 +340,11 @@ Tigist Abera, N. Asokan, Lucas Davi, Farinaz Koushanfar, Andrew Paverd, Ahmad-Re
 
 <h4>2015</h4>
 
-<p style="margin-left:25px;"><a href="https://arxiv.org/abs/1511.02119">OmniShare: Securely Accessing Encrypted Cloud Storage from Multiple Authorized Devices</a> [<a href="https://github.com/omnishare">source code</a>]<br/>
+<p style="margin-left:25px;" data-type="other"><a href="https://arxiv.org/abs/1511.02119">OmniShare: Securely Accessing Encrypted Cloud Storage from Multiple Authorized Devices</a> [<a href="https://github.com/omnishare">source code</a>]<br/>
 Andrew Paverd, Sandeep Tamrakar, Hoang Long Nguyen, Praveen Kumar Pendyala, Thien Duc Nguyen, Elizabeth Stobert, Tommi Gröndahl, N. Asokan, Ahmad-Reza Sadeghi<br/>
 arXiv preprint arXiv:1511.02119, 2015</p>
 
-<p style="margin-left:25px;"><a href="publications/AJPaverd-DPhil-Thesis.pdf">Enhancing Communication Privacy Using Trustworthy Remote Entities</a><br/>
+<p style="margin-left:25px;" data-type="thesis"><a href="publications/AJPaverd-DPhil-Thesis.pdf">Enhancing Communication Privacy Using Trustworthy Remote Entities</a><br/>
 Andrew Paverd<br/>
 DPhil Thesis, University of Oxford, United Kingdom, 2015</p>
 
@@ -344,28 +352,28 @@ DPhil Thesis, University of Oxford, United Kingdom, 2015</p>
 
 <h4>2014</h4>
 
-<p style="margin-left:25px;"><a href="https://ieeexplore.ieee.org/document/7007758/">Privacy-Enhanced Bi-Directional Communication in the Smart Grid using Trusted Computing</a> [<a href="http://www.cs.ox.ac.uk/files/6984/Paverd-SmartGridComm-2014.pdf">open access</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://ieeexplore.ieee.org/document/7007758/">Privacy-Enhanced Bi-Directional Communication in the Smart Grid using Trusted Computing</a> [<a href="http://www.cs.ox.ac.uk/files/6984/Paverd-SmartGridComm-2014.pdf">open access</a>]<br/>
 Andrew Paverd, Andrew Martin, Ian Brown<br/>
 IEEE International Conference on Smart Grid Communications (SmartGridComm), 2014</p>
 
 <!-- ACM DL Article: Characteristic-based security analysis of personal networks -->
-<p style="margin-left:25px;"><a href="https://dl.acm.org/doi/10.1145/2638728.2641549?cid=99658635926" title="Characteristic-based security analysis of personal networks">Characteristic-based security analysis of personal networks</a> [<a href="https://ora.ox.ac.uk/objects/uuid:1c266adb-ed2a-4984-90bf-d653792bdd84/download_file?file_format=pdf&safe_filename=Paverd-HomeSys-2014-v4.pdf&type_of_work=Conference+item">open access</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://dl.acm.org/doi/10.1145/2638728.2641549?cid=99658635926" title="Characteristic-based security analysis of personal networks">Characteristic-based security analysis of personal networks</a> [<a href="https://ora.ox.ac.uk/objects/uuid:1c266adb-ed2a-4984-90bf-d653792bdd84/download_file?file_format=pdf&safe_filename=Paverd-HomeSys-2014-v4.pdf&type_of_work=Conference+item">open access</a>]<br/>
 Andrew Paverd, Fadi El-Moussa, Ian Brown<br/>
 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp): Adjunct Publication, 2014</p>
 
-<p style="margin-left:25px;"><a href="https://link.springer.com/chapter/10.1007/978-3-319-10329-7_1">Security and Privacy in Smart Grid Demand Response Systems</a> [<a href="http://www.cs.ox.ac.uk/files/6560/SmartGridSec-final.pdf">open access</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://link.springer.com/chapter/10.1007/978-3-319-10329-7_1">Security and Privacy in Smart Grid Demand Response Systems</a> [<a href="http://www.cs.ox.ac.uk/files/6560/SmartGridSec-final.pdf">open access</a>]<br/>
 Andrew Paverd, Andrew Martin, Ian Brown<br/>
 2nd EIT ICT Labs Workshop on Smart Grid Security (SmartGridSec), 2014</p></li>
 
-<p style="margin-left:25px;"><a href="publications/casper-privacy-report.pdf">Modelling and Automatically Analysing Privacy Properties for Honest-But-Curious Adversaries</a><br/>
+<p style="margin-left:25px;" data-type="other"><a href="publications/casper-privacy-report.pdf">Modelling and Automatically Analysing Privacy Properties for Honest-But-Curious Adversaries</a><br/>
 Andrew Paverd, Andrew Martin, Ian Brown<br/>
 University of Oxford, 2014</p>
 
-<p style="margin-left:25px;">Poster: Enhancing Privacy in Location-Based Services Using Trustworthy Remote Entities<br/>
+<p style="margin-left:25px;" data-type="conference">Poster: Enhancing Privacy in Location-Based Services Using Trustworthy Remote Entities<br/>
 Andrew Paverd<br/>
 7th ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec), 2014</p>
   
-<p style="margin-left:25px;">Poster: Trustworthy and Secure Service-Oriented Architecture for the Internet of Things [<a href="https://arxiv.org/abs/1606.01671">arXiv report</a>]<br/>
+<p style="margin-left:25px;" data-type="conference">Poster: Trustworthy and Secure Service-Oriented Architecture for the Internet of Things [<a href="https://arxiv.org/abs/1606.01671">arXiv report</a>]<br/>
 Ahmad Atamli, Andrew Paverd, Andrew Martin<br/>
 International Conference on the Internet of Things (IoT), 2014</p>
 
@@ -373,15 +381,15 @@ International Conference on the Internet of Things (IoT), 2014</p>
 
 <h4>2013</h4>
 
-<p style="margin-left:25px;">EINS PRIME - Perception and Realisation of Information privacy using Measurements and Ethnography</a><br/>
+<p style="margin-left:25px;" data-type="conference">EINS PRIME - Perception and Realisation of Information privacy using Measurements and Ethnography</a><br/>
 Adriana Wilde, Andrew Paverd, Oliver Gasser, Moira McGregor<br/>
 Towards Meaningful Perspectives on Online Consent Workshop at Digital Economy Conference, 2013</p>
 
-<p style="margin-left:25px;"><a href="http://ceur-ws.org/Vol-1011/4.pdf">Towards Enhancing Web Application Security Using Trusted Execution</a><br/>
+<p style="margin-left:25px;" data-type="conference"><a href="http://ceur-ws.org/Vol-1011/4.pdf">Towards Enhancing Web Application Security Using Trusted Execution</a><br/>
 Cornelius Namiluko, Andrew Paverd, Tulio De Souza<br/>
 Workshop on Web Applications and Secure Hardware (WASH), 2013</p>
 
-<p style="margin-left:25px;"><a href="https://ora.ox.ac.uk/objects/uuid:c523d3cb-2360-42f3-b0e2-725cc0f86b00/download_file?file_format=pdf&safe_filename=AJPaverd_SAC13.pdf&type_of_work=Conference+item">Student Research Abstract: Trustworthy Remote Entities in the Smart Grid</a><br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://ora.ox.ac.uk/objects/uuid:c523d3cb-2360-42f3-b0e2-725cc0f86b00/download_file?file_format=pdf&safe_filename=AJPaverd_SAC13.pdf&type_of_work=Conference+item">Student Research Abstract: Trustworthy Remote Entities in the Smart Grid</a><br/>
 Andrew Paverd<br/>
 ACM Symposium on Applied Computing (SAC), 2013. <mark>ACM Student Research Contest International Finalist</mark></p>
 
@@ -389,15 +397,15 @@ ACM Symposium on Applied Computing (SAC), 2013. <mark>ACM Student Research Conte
 
 <h4>2012</h4>
 
-<p style="margin-left:25px;"><a href="https://link.springer.com/chapter/10.1007/978-3-642-38030-3_5">Hardware Security for Device Authentication in the Smart Grid</a>  [<a href="https://ora.ox.ac.uk/objects/uuid:eb19150b-474d-4ad4-965e-dd54a67a2eb9/download_file?file_format=pdf&safe_filename=AJPaverd_SmartGridSec12.pdf&type_of_work=Conference+item">open access</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://link.springer.com/chapter/10.1007/978-3-642-38030-3_5">Hardware Security for Device Authentication in the Smart Grid</a>  [<a href="https://ora.ox.ac.uk/objects/uuid:eb19150b-474d-4ad4-965e-dd54a67a2eb9/download_file?file_format=pdf&safe_filename=AJPaverd_SmartGridSec12.pdf&type_of_work=Conference+item">open access</a>]<br/>
 Andrew Paverd, Andrew Martin<br/>
 1st EIT ICT Labs Workshop on Smart Grid Security (SmartGridSec), 2012</p>
 
-<p style="margin-left:25px;"><a href="https://link.springer.com/chapter/10.1007/978-3-642-40012-4_5">Personal PKI for the Smart Device Era</a> [<a href="https://ora.ox.ac.uk/objects/uuid:921aa6f2-c42c-4241-ba99-6a965b380ad9/download_file?file_format=pdf&safe_filename=personal-pki.pdf&type_of_work=Conference+item">open access</a>]<br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://link.springer.com/chapter/10.1007/978-3-642-40012-4_5">Personal PKI for the Smart Device Era</a> [<a href="https://ora.ox.ac.uk/objects/uuid:921aa6f2-c42c-4241-ba99-6a965b380ad9/download_file?file_format=pdf&safe_filename=personal-pki.pdf&type_of_work=Conference+item">open access</a>]<br/>
 John Lyle, Andrew Paverd, Justin King-Lacroix, Andrea Atzeni, Habib Virji, Ivan Flechais, Shamal Faily<br/>
 European PKI Workshop (EuroPKI), 2012</p>
 
-<p style="margin-left:25px;"><a href="http://open.uct.ac.za/handle/11427/11063">Enhanced Mobile Computing Using Cloud Resources</a><br/>
+<p style="margin-left:25px;" data-type="thesis"><a href="http://open.uct.ac.za/handle/11427/11063">Enhanced Mobile Computing Using Cloud Resources</a><br/>
 Andrew Paverd<br/>
 M.Sc. Eng Dissertation, University of Cape Town, South Africa, June 2012</p>
 
@@ -405,11 +413,11 @@ M.Sc. Eng Dissertation, University of Cape Town, South Africa, June 2012</p>
 
 <h4>2011</h4>
 
-<p style="margin-left:25px;"><a href="http://www.satnac.org.za/proceedings/2011/papers/Work_In_Progress/Internet_Services_and_Applications/230.pdf">Towards a Framework for Enhanced Mobile Computing Using Cloud Resources</a><br/>
+<p style="margin-left:25px;" data-type="conference"><a href="http://www.satnac.org.za/proceedings/2011/papers/Work_In_Progress/Internet_Services_and_Applications/230.pdf">Towards a Framework for Enhanced Mobile Computing Using Cloud Resources</a><br/>
 Andrew Paverd, Michael Inggs, Simon Winberg<br/>
 Southern Africa Telecommunications Networks and Applications Conference (SATNAC), 2011</p>
 
-<p style="margin-left:25px;"><a href="https://ieeexplore.ieee.org/document/5929420/">Mobile Device-Based Cellular Network Coverage Analysis Using Crowd Sourcing</a><br/>
+<p style="margin-left:25px;" data-type="conference"><a href="https://ieeexplore.ieee.org/document/5929420/">Mobile Device-Based Cellular Network Coverage Analysis Using Crowd Sourcing</a><br/>
 Daniel Mankowitz, Andrew Paverd<br/>
 IEEE EUROCON, 2011. <mark>IEEE Student Research Competition Runner-Up</mark></p>
 
@@ -417,13 +425,48 @@ IEEE EUROCON, 2011. <mark>IEEE Student Research Competition Runner-Up</mark></p>
 
 <h4>2010</h4>
 
-<p style="margin-left:25px;">Mobile Device-Based Cellular Network Coverage Analysis Using Crowd Sourcing<br/>
+<p style="margin-left:25px;" data-type="thesis">Mobile Device-Based Cellular Network Coverage Analysis Using Crowd Sourcing<br/>
 Andrew Paverd and Daniel Mankowitz<br/>
 B.Sc. Eng (Electrical) Dissertation, University of the Witwatersrand, Johannesburg, South Africa, 2010</p>
 
 <hr>
 
 </div>
+
+<script>
+(function () {
+  var container = document.getElementById('pub-list');
+  var buttons = document.querySelectorAll('#pub-filter button');
+  var pubs = container.querySelectorAll('p[data-type]');
+
+  function apply(filter) {
+    pubs.forEach(function (p) {
+      p.style.display = (filter === 'all' || p.dataset.type === filter) ? '' : 'none';
+    });
+    container.querySelectorAll('h4').forEach(function (h) {
+      var el = h.nextElementSibling;
+      var visible = false;
+      while (el && el.tagName !== 'HR' && el.tagName !== 'H4') {
+        if (el.matches('p[data-type]') && el.style.display !== 'none') {
+          visible = true;
+        }
+        el = el.nextElementSibling;
+      }
+      h.style.display = visible ? '' : 'none';
+      var hr = h.previousElementSibling;
+      if (hr && hr.tagName === 'HR') hr.style.display = visible ? '' : 'none';
+    });
+  }
+
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      buttons.forEach(function (x) { x.classList.remove('active'); });
+      b.classList.add('active');
+      apply(b.dataset.filter);
+    });
+  });
+})();
+</script>
 
 </body>
 
